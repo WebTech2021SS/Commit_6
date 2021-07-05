@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Abonnierte Podcasts(Kacheln)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="givemecolors.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="big">
+      <header id="headbox">
+        <img
+          src="picture/endlogo.svg"
+          width="200"
+          height="150"
+          alt="Synapsis, Titel der Web-Anwendung "
+          id="logo"
+        />
+        <h1 id="titel">Irgendwelcher Titel</h1>
+      </header>
+      <nav class="moving" id="navbox">
+        <ul>
+          <li>
+            <a href="index.html">Abonnierte Podcasts</a>
+          </li>
+          <li>
+            <a href="podcast.html">Details zum Podcast</a>
+          </li>
+          <li>
+            <a href="episode.html">Details zur Episode</a>
+          </li>
+          <li>
+            <a href="newPodcast.html">Neuen Podcast hinzufügen</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="box">
+        <main id="mainbox">
+          <form
+            action="https://labs.inf.fh-dortmund.de/podcastService/testPodcastSearch.php"
+            method="GET"
+          >
+            <fieldset id="field">
+              <legend id="legend">Podcast-Suche</legend>
+              Titeleingabe:&emsp;
+              <input
+                name="pctitle"
+                type="text"
+                size="25"
+                maxlength="40"
+                placeholder="z.B.Titel_des_Podcasts_1"
+                pattern="^[A-Z]{1}[\s\w-]{1,}[^A-Z.]$"
+              />
+              <button class="button2"><strong>Finden!</strong></button>
+            </fieldset>
+          </form>
+          <div id="kacheln">
+            <div id="podcast1">
+              <a href="podcast.html"
+                ><img
+                  src="picture/ra.svg"
+                  width="100"
+                  height="100"
+                  alt="Auge von Horus"
+                />
+                <br />
+                Titel_des_BeispielPodcasts_1</a
+              >
+            </div>
+            <div id="podcast2">
+              <a href="podcast.html"
+                ><img
+                  src="picture/fire1.svg"
+                  width="100"
+                  height="100"
+                  alt="Fire"
+                /><br />
+                Titel_des_BeispielPodcasts_2</a
+              >
+            </div>
+            <div id="podcast3">
+              <a href="podcast.html"
+                ><img
+                  src="picture/cool.svg"
+                  width="100"
+                  height="100"
+                  alt="Ornament"
+                /><br />
+                Titel_des_BeispielPodcasts_3</a
+              >
+            </div>
+            <div id="podcast4">
+              <a href="podcast.html"
+                ><img
+                  src="picture/nature.svg"
+                  width="100"
+                  height="100"
+                  alt="Nature circle"
+                /><br />
+                Titel_des_BeispielPodcasts_4</a
+              >
+            </div>
+          </div>
+        </main>
+        <!--Beispiel fuer Neueste Episoden-->
+        <aside title="Neueste Episoden" id="asidebox">
+          <h2>Neueste Episoden</h2>
+          <ul>
+            <li>
+              <a href="https://workingdraft.de/478/"
+                >Revision 478: Abschweifen mit TypeScript 4.3</a
+              >
+            </li>
+            <li>
+              <a href="https://workingdraft.de/477/"
+                >Revision 477: Komponentenbibliotheken und Design Systeme</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <footer class="fest" id="footbox">
+        Alle rechte sind vorbehalten &copy; Illia Malyar
+      </footer>
+    </div>
+  </body>
+</html>
