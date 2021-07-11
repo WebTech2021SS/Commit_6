@@ -157,6 +157,8 @@ button:hover {
 }
 #bild {
   float: right;
+  max-width: 50%;
+  height: auto;
 }
 .clear {
   clear: right;
