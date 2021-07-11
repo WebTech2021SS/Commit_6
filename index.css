@@ -1,0 +1,121 @@
+#big {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 100%;
+}
+#box {
+  display: flex;
+  flex: 4 2 100%;
+  flex-flow: column unwrap;
+}
+#mainbox {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 75%;
+  margin: 1% 0.5% 1% 0%;
+  justify-content: flex-start;
+}
+#asidebox {
+  display: flex;
+  flex: 4 0.7 25%;
+  padding: 1% 1% 1% 1%;
+  margin: 1% 0% 1% 0%;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+#sectionbox {
+  display: flex;
+  flex: 4 2 75%;
+  flex-flow: column;
+  padding: 1% 1% 1.5% 1%;
+  align-items: center;
+}
+#articlebox {
+  flex: 4 2 75%;
+  padding: 1% 1% 1% 1%;
+}
+#navbox {
+  display: flex;
+  flex: 4 2 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+#footbox {
+  display: flex;
+  flex: 4 2 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+#headbox {
+  display: flex;
+  flex: 4 2 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+#field {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 75%;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: baseline;
+  border: 4px white;
+  border-radius: 13px;
+  border-style: ridge ridge ridge ridge;
+}
+form {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 75%;
+  margin: 20px;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+#legend {
+  border-radius: 10px;
+  border-style: hidden solid;
+  border: 4px white;
+}
+#kacheln {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 75%;
+  font-size: 15px;
+  margin: 20px;
+  justify-content: space-between;
+}
+#podcast1 {
+  display: flex;
+  flex-flow: column wrap;
+  border: ridge 4px white;
+  border-radius: 13px;
+  margin: 10px;
+}
+#podcast2 {
+  display: flex;
+  flex-flow: column wrap;
+  border: ridge 4px white;
+  border-radius: 13px;
+  margin: 10px;
+}
+#podcast3 {
+  display: flex;
+  flex-flow: column wrap;
+  border: ridge 4px white;
+  border-radius: 13px;
+  margin: 10px;
+}
+#podcast4 {
+  display: flex;
+  flex-flow: column wrap;
+  border: ridge 4px white;
+  border-radius: 13px;
+  margin: 10px;
+}
+#ul1 {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4 2 100%;
+  padding: 0% 2% 0% 2%;
+  justify-content: flex-start;
+}
